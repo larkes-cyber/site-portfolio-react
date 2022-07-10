@@ -1,0 +1,43 @@
+@font-face {
+    font-family:NicoMoji;  /* Гарнитура шрифта */
+    src: url('../../resourse/NicoMoji-Regular.ttf'); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family:ArodaPro;  /* Гарнитура шрифта */
+    src: url('../../resourse/ArodoraPro-Light.otf'); /* Путь к файлу со шрифтом */
+   }
+
+.navi{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+.logo-box{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.logo-text{
+    font-size: 18px;
+    font-family:NicoMoji;
+    color: white;
+    margin-left: 10px;
+}
+.nav-item{
+    font-family: 'ArodaPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #E4E4E4;
+}
+.nav-elements-box{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-image{
+    width: 42px;
+    height: 35px;
+    margin-top: 2%;
+}

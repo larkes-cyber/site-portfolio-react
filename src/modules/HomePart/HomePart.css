@@ -1,0 +1,112 @@
+@font-face {
+    font-family:NextArt;  /* Гарнитура шрифта */
+    src: url('../../resourse/NEXT\ ART_SemiBold.otf'); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family:NextArtBold;  /* Гарнитура шрифта */
+    src: url('../../resourse/NEXTART_Bold.otf'); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family:ArodaPro;  /* Гарнитура шрифта */
+    src: url('../../resourse/ArodoraPro-Light.otf'); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family:Rubik;  /* Гарнитура шрифта */
+    src: url('../../resourse/Rubik-Medium.ttf'); /* Путь к файлу со шрифтом */
+}
+
+
+.container-home-part{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 18%;
+}
+
+.profile-image{
+    width: 65%;
+    margin-left: 50%;
+}
+
+.home-part-info{
+    box-sizing:border-box;
+    width:4%;
+    max-height: 10%;
+    margin-top: 5%;
+}
+
+.hello-text{
+    font-family: NextArt;
+    font-style: normal;
+    font-weight: 600;
+   
+    font-size: 48px;
+    color: #E4E4E4;
+}
+
+.my-name-text{
+    width: 750px;
+    font-family: NextArtBold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    color: #E4E4E4;
+    /* margin-top: -80%; */
+    margin-top: 14%;
+
+}
+
+.about-text{
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    width: 480px;
+    margin-top: 34%;
+    /* margin-top: -120%; */
+}
+
+.contact-button{
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    border-radius: 3px;
+
+    font-family: NextArtBold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    border-style: none;
+    flex-grow: 1;
+
+}
+
+.profile-buttons{
+    display: flex;
+    width: 20vw;
+    margin-top: 135%;
+}
+
+.github-button{
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+    background: none;
+    margin-left: 5%;
+    font-family: NextArtBold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #F2994A;
+    padding: 15px 15px;
+
+    flex-grow: 2.5;
+
+}
