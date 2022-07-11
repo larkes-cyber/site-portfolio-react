@@ -1,0 +1,33 @@
+@font-face {
+    font-family:ArodaPro;  /* Гарнитура шрифта */
+    src: url('../../resourse/ArodoraPro-Light.otf'); /* Путь к файлу со шрифтом */
+   }
+
+
+.skill-box-container{
+    display: flex;
+    flex-flow: wrap;
+
+    width: 100%;
+  
+}
+
+.skill-box{
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    flex-direction: column;
+    padding: 74px 91px 39px 91px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.skill-text{
+    font-family: ArodaPro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E4E4E4;
+    margin-top: 65px;
+}
